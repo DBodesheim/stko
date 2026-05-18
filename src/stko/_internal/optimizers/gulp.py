@@ -495,7 +495,7 @@ class GulpUFFOptimizer(Optimizer):
         top_line = "opti "
 
         if self._conjugate_gradient:
-            top_line += "conj unit "
+            top_line += "conj "
 
         if unit_cell is not None:
             # Constant pressure.
